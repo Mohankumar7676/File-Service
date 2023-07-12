@@ -1,0 +1,115 @@
+.app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    font-family: "Times New Roman";
+    background-color: #f8f9fd;
+  }
+
+.uploaded-view {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    font-family: "Times New Roman";
+    background-color: #f8f9fd;
+  }
+
+  .welcome-view {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    height: auto;
+    font-family: "Times New Roman";
+    background-color: #f8f9fd;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    height: 25px;
+    width: "-webkit-fill-available";
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #e51e1e;
+    border: 1px solid #e51e1e;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background: #fff;
+    color: #e51e1e;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .view-modal {
+    background-color: white;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .welcome-view-modal {
+    background-color: white;
+    padding: 2rem;
+    margin: 1rem;
+    height: 100vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: auto;
+    margin: 10px;
+  }
+
+  .button {
+    margin-top: 8px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 15px;
+    align-items: center;
+    background: #e51e1e;
+    border: 1px solid #e51e1e;
+    color: #fff;
+    padding: 10px 15px;
+  }
+
+  .button:hover {
+    background: #fff;
+    color: #e51e1e;
+    cursor: pointer;
+  }
