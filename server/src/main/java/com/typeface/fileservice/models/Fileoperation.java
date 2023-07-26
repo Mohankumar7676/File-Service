@@ -1,8 +1,7 @@
 package com.typeface.fileservice.models;
 
+import java.util.Date;
 
-
-import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import lombok.AllArgsConstructor;
@@ -18,5 +17,7 @@ public class Fileoperation {
     private String id;
     private String fileName;
     private Operations operations;
+    private Date createdAt;
+    private Date modifiedAt;
 
 }
